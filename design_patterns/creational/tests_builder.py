@@ -1,4 +1,5 @@
-from design_patterns import builder
+from design_patterns.creational import builder
+
 
 def test_end_to_end():
     director = builder.Director(builder.LongSwordBuilder())
